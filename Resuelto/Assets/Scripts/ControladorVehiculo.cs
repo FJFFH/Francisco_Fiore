@@ -20,11 +20,11 @@ public class ControladorVehiculo : MonoBehaviour
                             Vector3.forward * velocidadMovimiento * Time.deltaTime);
         
         
-        /*
+        
          transform.Translate(inputHorizontal *
                             // Direccion  x    escalable    x en funcion del tiempo
                             Vector3.right * velocidadDeGiro * Time.deltaTime);
-       */
+       
         
         // if(inputHorizontal == 1 || inputHorizontal == -1)
         if (inputVertical != 0) 
