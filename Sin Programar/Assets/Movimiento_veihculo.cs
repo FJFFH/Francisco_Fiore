@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movimiento_veiculo : MonoBehaviour
+public class Movimiento_veihculo : MonoBehaviour
 {
     public float velocidad;
    
@@ -43,13 +43,13 @@ public class Movimiento_veiculo : MonoBehaviour
         if (Input.GetKey("d"))
         {
 
-            transform.Rotate(0, 0.5f, 0);
+            transform.Rotate(0, 0.2f, 0);
         }
 
         if (Input.GetKey("a"))
         {
 
-            transform.Rotate(0, -0.5f, 0);
+            transform.Rotate(0, -0.2f, 0);
         }
 
 
